@@ -1,16 +1,15 @@
 .profile {
-  margin-inline: auto;
+  margin-top: 20px;
   width: 282px;
   height: 372px;
   background-color: white;
   border-radius: 5px;
-  border: 2px solid red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.discription {
+.description {
   height: calc(372px - 83px);
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +25,7 @@
 }
 .name {
   font-weight: 700;
+  font-size: 24px;
 }
 .tag {
   margin-block: 12px;
@@ -42,7 +42,6 @@
 
 .stats {
   display: flex;
-
   height: 83px;
   width: 100%;
 }
@@ -50,8 +49,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
   align-items: center;
-
   width: calc(100% / 3);
   background-color: #f3f6f9;
 }
@@ -67,6 +66,6 @@
 }
 
 .quantity {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
 }
